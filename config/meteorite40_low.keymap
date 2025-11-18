@@ -31,14 +31,20 @@
             layers = <0>;
         };
 
-        esc {
-            bindings = <&kp ESCAPE>;
+        caps {
+            bindings = <&kp CAPS>;
             key-positions = <20 21>; /* Z + X */
             layers = <0>;
         };
 
         tab {
             bindings = <&kp TAB>;
+            key-positions = <10 11>; /* A + S */
+            layers = <0>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
             key-positions = <0 1>; /* Q + W */
             layers = <0>;
         };
