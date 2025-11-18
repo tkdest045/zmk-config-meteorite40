@@ -49,10 +49,22 @@
             layers = <0>;
         };
 
-        home {
-            bindings = <&kp HOME>;
-            key-positions = <16 17>; /* J + K (on layer 2) */
-            layers = <2>;
+        mute {
+            bindings = <&kp MUTE>;
+            key-positions = <8 9>;   /* O + P */
+            layers = <0>;
+        };
+
+        volume_up {
+            bindings = <&kp VOL_UP>;
+            key-positions = <7 8>;   /* I + O */
+            layers = <0>;
+        };
+
+        volume_down {
+            bindings = <&kp VOL_DN>;
+            key-positions = <6 7>;   /* U + I */
+            layers = <0>;
         };
 
         end {
