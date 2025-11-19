@@ -50,19 +50,19 @@
         };
 
         mute {
-            bindings = <&kp MUTE>;
+            bindings = <&kp C_MUTE>;
             key-positions = <8 9>;   /* O + P */
             layers = <0>;
         };
 
         volume_up {
-            bindings = <&kp VOL_UP>;
+            bindings = <&kp C_VOL_UP>;
             key-positions = <7 8>;   /* I + O */
             layers = <0>;
         };
 
         volume_down {
-            bindings = <&kp VOL_DN>;
+            bindings = <&kp C_VOL_DN>;
             key-positions = <6 7>;   /* U + I */
             layers = <0>;
         };
