@@ -45,7 +45,7 @@
 
         delete {
             bindings = <&kp DEL>;
-            key-positions = <5 6>;
+            key-positions = <6 7>;
             layers = <0 3>;
         };
 
@@ -55,9 +55,51 @@
             layers = <0>;
         };
 
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <15 16>;
+            layers = <0>;
+        };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <17 18>;
+            layers = <0>;
+        };
+
         quote {
             bindings = <&kp SQT>;
             key-positions = <18 19>;
+            layers = <0>;
+        };
+
+        tilde {
+            bindings = <&kp LS(GRAVE)>;
+            key-positions = <27 28>;
+            layers = <0>;
+        };
+
+        underscore {
+            bindings = <&kp LS(MINUS)>;
+            key-positions = <28 29>;
+            layers = <0>;
+        };
+
+        plus {
+            bindings = <&kp LS(EQUAL)>;
+            key-positions = <29 30>;
+            layers = <0>;
+        };
+
+        backslash {
+            bindings = <&kp BSLH>;
+            key-positions = <31 32>;
             layers = <0>;
         };
 
