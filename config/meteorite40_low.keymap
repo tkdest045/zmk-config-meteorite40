@@ -99,7 +99,7 @@
 
         backslash {
             bindings = <&kp BSLH>;
-            key-positions = <31 32>;
+            key-positions = <30 31>;
             layers = <0>;
         };
 
