@@ -7,14 +7,12 @@
     flavor = "tap-preferred"; // change hold to tap
     tapping-term-ms = <250>; // 連続タップ
     quick-tap-ms = <200>;
-    hold-trigger-ms = <300>;  // ホールドを遅らせる
 };
 
 &lt {
     flavor = "tap-preferred";
     tapping-term-ms = <250>;
     quick-tap-ms = <200>;
-    hold-trigger-ms = <300>;
 };
 
 / { 
