@@ -50,13 +50,13 @@
         };
 
         rightbracket {
-            bindings = <&kp LS(9)>;
+            bindings = <&kp LS(N9)>;
             key-positions = <6 7>;
             layers = <0>;
         };
 
         leftbracket {
-            bindings = <&kp LS(0)>;
+            bindings = <&kp LS(N0)>;
             key-positions = <7 8>;
             layers = <0>;
         };
